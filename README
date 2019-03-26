@@ -1,1 +1,8 @@
-Hi
+1. This is a flask python application which scrapes the json file and prints out a random line every 10 seconds.
+2. Flask application runs on default port i.e. 5001.
+3. We will be running app with uwsgi app server, ini file.
+4. Nginx will run in either same or different docker as a reverse proxy. Configuration file is present as well.
+5. Docker file is present for application.
+6. Another dockerfile is to be made for web server.
+7. After this we can write a docker-compose file to orchestrate both containers on local.
+8. For production we can run the above app in either kubernetes or ECS.
