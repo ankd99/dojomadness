@@ -6,3 +6,4 @@
 6. Another dockerfile is to be made for web server.
 7. After this we can write a docker-compose file to orchestrate both containers on local.
 8. For production we can run the above app in either kubernetes or ECS.
+9. We will maintain our infra with terraform and provisioning of servers shall be done with ansible.
